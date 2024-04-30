@@ -1,0 +1,27 @@
+Todo:
+  Setup MicroCMS:
+    ✔ Create content schemas @done(24-04-26 15:00)
+    ✔ Integrate MicroCMS into the project @done(24-04-30 09:34)
+
+  Create theme variants:
+    ✔ Create text style variants @done(24-04-30 10:08)
+    ✔ Create color variants @done(24-04-30 10:12)
+    ☐ Create color variants for dark mode
+    ☐ Define width properties for responsive design
+
+  Create Top Page:
+    ☐ Create hero section @started(24-04-30 13:10)
+    ☐ Create about section
+    ☐ Create skills section
+    ☐ Create works section
+    ☐ Create contact section
+
+  Create Skills Page:
+    ☐ Create skill list
+
+  Create Works page:
+    ☐ Create work list
+    ☐ Create wotk detail modal
+
+  Create Contact Page:
+    ☐ Create contact form
