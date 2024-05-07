@@ -1,0 +1,21 @@
+.works {
+  width: 100%;
+  height: fit-content;
+
+  padding: 1.5rem 0;
+
+  & .labels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & .heading {
+      color: var(--color-black);
+    }
+
+    & .link {
+      color: var(--color-darkest);
+    }
+  }
+}

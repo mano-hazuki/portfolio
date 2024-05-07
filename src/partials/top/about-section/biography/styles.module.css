@@ -1,0 +1,53 @@
+.biography {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  grid-row: 1 / 7;
+  grid-column: 1 / 13;
+
+  scroll-snap-align: start;
+
+  & .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    width: fit-content;
+    height: fit-content;
+
+    & .text {
+      color: var(--color-black);
+      overflow: hidden;
+    }
+
+    & .underline {
+      width: 100%;
+      height: 0.125rem;
+
+      border-width: 0;
+      border-radius: 2px;
+      background-color: var(--color-black);
+    }
+  }
+
+  & .description {
+    width: fit-content;
+    height: fit-content;
+
+    text-align: center;
+
+    & .textWrapper {
+      width: fit-content;
+      height: fit-content;
+
+      & .text {
+        color: var(--color-darkest);
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.item {
+  width: fit-content;
+  height: fit-content;
+}
+
+.image {
+  width: auto;
+  height: fit-content;
+  aspect-ratio: 1 / 1;
+}

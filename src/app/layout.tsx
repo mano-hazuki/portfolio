@@ -7,11 +7,13 @@ import "./reset.css";
 
 const josefinSlab = Josefin_Slab({
   subsets: ["latin"],
+  style: ["normal", "italic"],
   weight: ["600", "700"],
   variable: "--font-josefin-slab",
 });
 const josefinSans = Josefin_Sans({
   subsets: ["latin"],
+  style: ["normal", "italic"],
   weight: ["400", "500"],
   variable: "--font-josefin-sans",
 });
@@ -28,7 +30,7 @@ interface LayoutProps {
 export default function Layout({ children }: Readonly<LayoutProps>) {
   return (
     <html lang="en">
-      <body className={classnames(josefinSlab.className, josefinSans.className)}>{children}</body>
+      <body className={classnames(josefinSlab.variable, josefinSans.variable)}>{children}</body>
     </html>
   );
 }

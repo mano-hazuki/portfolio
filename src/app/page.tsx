@@ -1,3 +1,4 @@
+import { AboutSection } from "@/partials/top/about-section";
 import { FirstView } from "@/partials/top/first-view";
 import { Metadata } from "next";
 import styles from "./page.module.css";
@@ -10,6 +11,7 @@ export default async function Top() {
   return (
     <main className={styles.main}>
       <FirstView />
+      <AboutSection />
     </main>
   );
 }

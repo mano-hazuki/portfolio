@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  grid-row: 7 / 13;
+  grid-column: 1 / 13;
+
+  scroll-snap-align: start;
+}

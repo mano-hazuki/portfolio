@@ -7,7 +7,7 @@ Todo:
     ✔ Create text style variants @done(24-04-30 10:08)
     ✔ Create color variants @done(24-04-30 10:12)
     ☐ Create color variants for dark mode
-    ☐ Define width properties for responsive design
+    ✔ Define width properties for responsive design @done(24-05-03 14:29)
 
   Create Top Page:
     ☐ Create hero section @started(24-04-30 13:10)
@@ -25,3 +25,6 @@ Todo:
 
   Create Contact Page:
     ☐ Create contact form
+  
+  Create Additional Animations:
+    ☐ Create page transitions

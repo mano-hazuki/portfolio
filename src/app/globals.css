@@ -1,3 +1,9 @@
+i,
+u,
+strong {
+  all: revert;
+}
+
 :root {
   --color-black: #0f0f0f;
   --color-darkest: #282828;
@@ -6,4 +12,13 @@
   --color-brighter: #9b9b9b;
   --color-brightest: #d7d7d7;
   --color-white: #f0f0f0;
+}
+
+main {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
 }

@@ -4,5 +4,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "cSpell.words": ["shohei", "yamagiwa", "microcms"]
+  "cSpell.words": ["shohei", "yamagiwa", "konan", "microcms", "fontawesome", "fortawesome"]
 }

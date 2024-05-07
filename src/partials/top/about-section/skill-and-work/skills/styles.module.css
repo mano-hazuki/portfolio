@@ -1,0 +1,45 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+
+  width: 100%;
+  height: fit-content;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  & .labels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: fit-content;
+
+    & .heading {
+      color: var(--color-black);
+    }
+
+    & .link {
+      color: var(--color-darkest);
+    }
+  }
+
+  & .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    width: 100%;
+    height: fit-content;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}

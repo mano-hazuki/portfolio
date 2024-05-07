@@ -1,4 +1,5 @@
 import { MicroCMSDate, MicroCMSImage, MicroCMSQueries, createClient } from "microcms-js-sdk";
+import { getRandomInts } from "./random";
 
 /* MicroCMS Client */
 const client = createClient({
@@ -16,12 +17,22 @@ export type Skill = {
   name: string;
   icon: MicroCMSImage;
   experience: number;
-  category: string;
+  categories: string[];
 } & Schema;
 
 export async function fetchSkills(queries?: MicroCMSQueries) {
   const response = client.getAllContents<Skill>({ endpoint: "skills", queries: queries });
   return response;
+}
+
+export async function fetchRandomSkills() {
+  const all = await fetchSkills();
+  const indexes = getRandomInts(4, all.length);
+  const skills: Skill[] = [];
+  for (const i of indexes) {
+    skills.push(all[i]);
+  }
+  return skills;
 }
 
 /* Work */

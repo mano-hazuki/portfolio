@@ -1,0 +1,44 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  width: auto;
+  height: 75%;
+  aspect-ratio: 1 / 1;
+
+  border-width: 0;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: var(--color-white);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Tablet */
+@media (48rem <= width <= 64rem) {
+  .button {
+    position: relative;
+    width: auto;
+    height: 50%;
+    aspect-ratio: 1 / 1;
+  }
+}
+
+/* Desktop */
+@media (width > 64rem) {
+  .button {
+    position: relative;
+    width: auto;
+    height: 50%;
+    aspect-ratio: 1 / 1;
+  }
+}
+
+.icon {
+  width: 33%;
+  height: 33%;
+
+  color: var(--color-black);
+}
